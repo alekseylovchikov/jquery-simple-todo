@@ -7,13 +7,12 @@
 body {
   font-family: "Roboto", "Arial", sans-serif;
   color: #383838;
-
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,79d8b1+100 */
-  background: #00b7ea; /* Old browsers */
-  background: -moz-linear-gradient(left,  #00b7ea 0%, #79d8b1 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  #00b7ea 0%,#79d8b1 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  #00b7ea 0%,#79d8b1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#79d8b1',GradientType=1 ); /* IE6-9 */
+  background: #00b7ea;
+  background: -moz-linear-gradient(left,  #00b7ea 0%, #79d8b1 100%);
+  background: -webkit-linear-gradient(left,  #00b7ea 0%,#79d8b1 100%);
+  background: linear-gradient(to right,  #00b7ea 0%,#79d8b1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#79d8b1',GradientType=1 );
 }
 
 h1 {
@@ -28,7 +27,7 @@ h1 {
   margin: 16px auto;
   border: 2px solid #383838;
   background-color: #fff;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4);
+  box-shadow: 0 16px 10px 0 rgba(0, 0, 0, .4);
   overflow-x: hidden;
 }
 
@@ -57,7 +56,7 @@ ul li {
 }
 
 ul li:nth-child(even) {
-  background-color: #b1e6dd;
+  background-color: #f3f3f3;
 }
 
 ul li.completed:nth-child(even) {
