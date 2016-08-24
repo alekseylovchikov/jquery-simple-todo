@@ -1,6 +1,5 @@
 $(document).ready(function() {
   var trashIcon = '<i class="fa fa-trash" aria-hidden="true"></i>';
-  //var todos = [];
   var counter = localStorage.length > 0 ? localStorage.length : 0;
   // click in todo item
   $('ul').on('click', 'li', function() {
