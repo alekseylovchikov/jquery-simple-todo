@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #383838;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,79d8b1+100 */
+  background: #00b7ea; /* Old browsers */
+  background: -moz-linear-gradient(left,  #00b7ea 0%, #79d8b1 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #00b7ea 0%,#79d8b1 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #00b7ea 0%,#79d8b1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#79d8b1',GradientType=1 ); /* IE6-9 */
+}
+
+h1 {
+  padding: 16px 0;
+  text-align: center;
+  background-color: #51b1c7;
+  color: #fff;
+}
+
+.container {
+  max-width: 400px;
+  margin: 16px auto;
+  border: 2px solid #383838;
+  background-color: #fff;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4);
+  overflow-x: hidden;
+}
+
+input[type="text"] {
+  width: 100%;
+  line-height: 40px;
+  padding-left: 8px;
+  border: 0;
+  border-bottom: 2px solid #51b1c7;
+
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+input[type="text"]:focus {
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 16px 0;
+  margin-left: -45px;
+}
+
+ul li:nth-child(even) {
+  background-color: #b1e6dd;
+}
+
+ul li.completed:nth-child(even) {
+  background-color: #3e3e3e;
+  color: #fff;
+}
+
+ul li span {
+  font-weight: bolder;
+}
+
+.completed {
+  background-color: #3e3e3e;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.remove {
+  background-color: #f33e3e;
+  padding: 16px;
+  margin-right: 8px;
+  color: #fff;
+  transition: background-color .5s, color .5s;
+}
+
+.remove:hover {
+  background-color: #fff;
+  color: #f33e3e;
+}
